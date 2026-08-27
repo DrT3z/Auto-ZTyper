@@ -42,5 +42,5 @@ def type(wordsToType):
     wordsToType.clear()
 
 if __name__ == "__main__":
-    reader = easyocr.Reader(['en'], gpu=False)
+    reader = easyocr.Reader(['en'])
     main()
